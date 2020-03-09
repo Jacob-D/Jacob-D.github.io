@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    color: #333;
+    font-size: 14px;
+}
+h2 {
+    font-size: 22px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+.mark__bold {
+    font-weight: bold;
+}
+.resume__time {
+    color: #666;
+    font-size: 12px;
+}
+
+#host {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.resume {
+    width: 1000px;
+    border-radius: 10px;
+    padding: 30px 20px;
+    box-shadow: 0 8px 20px 2px rgba(0, 0, 0,.08)
+}
+.resume>div {
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+}
+.resume>div:last-child {
+    border-bottom: none;
+}
+.resume__personal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.resume__school_item {
+    display: flex;
+    justify-content: space-between;
+}
+.resume__work_item {
+    margin-bottom: 30px;
+}
+.resume__work_company {
+    display: flex;
+    justify-content: space-between;
+}
