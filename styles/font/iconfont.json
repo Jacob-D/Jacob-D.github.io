@@ -1,0 +1,51 @@
+{
+  "id": "1696265",
+  "name": "jacob-d.github.io",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7932260",
+      "name": "english",
+      "font_class": "english",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "219350",
+      "name": "log",
+      "font_class": "log",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "569546",
+      "name": "personal",
+      "font_class": "caidaniconwodehui",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "611416",
+      "name": "book",
+      "font_class": "book",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "792276",
+      "name": "photograph2-照片",
+      "font_class": "photograph2zhaopian",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "7206311",
+      "name": "Write text",
+      "font_class": "Writetext",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    }
+  ]
+}
