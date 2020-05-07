@@ -27,6 +27,18 @@ h4 {
 .resume>div:last-child {
     border-bottom: none;
 }
+
+.resume__personal {
+    background: #222;
+}
+.resume__personal_txt * {
+    color: white !important;
+}
+.resume__personal_img {
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
 .resume__personal {
     display: flex;
     justify-content: space-between;
@@ -42,4 +54,8 @@ h4 {
 .resume__work_company {
     display: flex;
     justify-content: space-between;
+}
+.resume__end {
+    background: #222;
+    height: 2px;
 }
