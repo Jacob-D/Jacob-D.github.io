@@ -9,7 +9,7 @@ html, body {
     flex-wrap: wrap;
     justify-content: space-between;
     box-shadow: none;
-    width: 700px;
+    /* width: 700px; */
 }
 .home__item {
     width: 200px;
