@@ -1,0 +1,16 @@
+{
+  "name": "personal-hostpage",
+  "version": "1.0.0",
+  "description": "host page of personal",
+  "main": "index.js",
+  "scripts": {
+    "eng": "node ./js/english-explanation/readFile.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}

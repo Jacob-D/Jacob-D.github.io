@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob's utils</title>
+</head>
+<body>
+    <h3>CM转换成Inch</h3>
+    <p>说明：1Inch = 2.54cm, 转换时默认四舍五入保留两位小数，数字间采用*作为分割符，行之间采用 Enter 键分割 </p>
+    <textarea rows="5" id="text-input"></textarea>
+    <button id="submit">转换</button>
+
+    <script>
+
+      (() => {
+        const submit = document.getElementById('submit')
+        submit.addEventListener('click', (e) => {
+          const text = document.getElementById('text-input')
+          const res = cmToInch(text.value)
+          text.value = res
+        }, false)
+      })()
+
+      function cmToInch (text) {
+        let list = text.split('\n')
+        const character = '*'
+        const UNIT = 2.54
+
+        list = list.map((item) => {
+          item = item.split(character).map(cm => {
+            const inch = Number(cm) / UNIT
+
+            return inch.toFixed(2)
+          }).join(character)
+          
+          return item
+        })
+
+        text = list.join('\n')
+        return text
+      }
+    </script>
+</body>
+</html>
